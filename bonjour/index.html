@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #FFFFFF;
+}
+
+.right {
+  right: 0;
+  background-color: #3399FF;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 500px;
+  border-radius: 50%;
+}
+.btn{
+  position: absolute;
+  left: 35%;
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+</style>
+<title>bonjour</title>
+</head>
+<body>
+
+<div class="split left">
+  <div class="centered">
+    <img src="Logopit_1588271560549.png">
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <h3>This page is currenly is work-in progress.Click to get the source code.</h3>
+    <button onclick="document.location = 'https://github.com/iamkarthikr/bonjuour'" class="btn"">Click Me!</button>
+  </div>
+
+</div>
+
+</body>
+</html>
